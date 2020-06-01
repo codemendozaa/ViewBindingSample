@@ -4,9 +4,7 @@ Project characteristics
 Con la nueva biblioteca de enlace de datos, tendría de una forma más fácil y segura tus interacciones. Aunque existen otras librerías que realizan en android estas interacciones como es data binding, Kotlin Synthetic, findViewById(), pero los que realmente los diferencia con view binding es la
 seguridad en tiempo de compilación y el impacto de velocidad de construcción por lo cual es el remplazo de las anteriores librerías, más adelantes veremos algunas ventajas.
 
-<div align="center">
-    <img alt="Icon" src="remote_data/assets/icon.png" width="200" />
-</div>
+   ![viewBinding](https://miro.medium.com/max/4800/1*42FZcmYQhmznt6mIYKKJAw.png)
 
 Este proyecto trae con sigo un conjunto de mejores prácticas, herramientas y soluciones:
 
