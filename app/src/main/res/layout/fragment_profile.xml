@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="488dp"
         android:background="@color/colorPrimary"
-        android:text="@string/back"
+        android:text="@string/touch"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
