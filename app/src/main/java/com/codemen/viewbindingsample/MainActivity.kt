@@ -1,7 +1,9 @@
 package com.codemen.viewbindingsample
 
 import android.R
+import android.content.Context
 import android.os.Bundle
+import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
@@ -24,9 +26,21 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, " Welcome $printName to viewBinding", Toast.LENGTH_LONG).show()
             fragmentTransaction.add(R.id.content, FragmentProfile())
             fragmentTransaction.commit()
+            hidekeyboard()
         }
 
 
+    }
+
+    private fun hidekeyboard() {
+        if (this.currentFocus != null) {
+            val inputManager: InputMethodManager =
+                this.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            inputManager.hideSoftInputFromWindow(
+                this.currentFocus!!.windowToken,
+                InputMethodManager.HIDE_NOT_ALWAYS
+            )
+        }
     }
 
 
