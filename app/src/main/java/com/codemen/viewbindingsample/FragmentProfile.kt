@@ -41,7 +41,13 @@ class FragmentProfile : Fragment() {
 
     }
 
+    override fun onDestroyView() {
+        // Consider not storing the binding instance in a field, if not needed.
+        _binding = null
+        super.onDestroyView()
 
+
+    }
 }
 
 
