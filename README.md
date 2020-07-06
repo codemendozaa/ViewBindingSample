@@ -13,5 +13,7 @@ Este proyecto trae con sigo un conjunto de mejores prácticas, herramientas y so
 * [viewBinding](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
 * Cheatsheete [Cheatsheet](https://www.instagram.com/p/B-qLuRoFbGm/?utm_source=ig_web_copy_link)
 * Medium ([medium](https://medium.com/@erixjavierm/view-binding-51f230d7e379))
+* ([conversación en vivo en Youtube.](https://www.youtube.com/watch?v=OuvyjSGRemg))
+
 
 
